@@ -1,0 +1,26 @@
+@media (max-width: 425px) {
+  h1 {
+    font-size: 46px;
+    width: 80vw;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  }
+  .large {
+    grid-row: 1 / span 1;
+    grid-column: 1 / span 1;
+  }
+
+  .logo {
+    height: 28px;
+  }
+
+  img.handshake {
+    height: 46px;
+  }
+
+  .sticky {
+    padding: 5% 10% 5% 10%;
+  }
+}
